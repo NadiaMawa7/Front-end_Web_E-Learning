@@ -9,8 +9,8 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link rel="stylesheet" href="../Assets/css/main.css" />
+    <link rel="stylesheet" href="../Assets/css/responsive.css" />
     <!-- Icons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
@@ -26,10 +26,154 @@
 </head>
 <body>
 
+            <!-- Menu Setting -->
+            <div id="gear-btn-container">
+                <button id="toggleSidebar" class="gear-btn">
+                    <i class="bx bx-cog"></i>
+                </button>
+            </div>
+
+            <div id="sidebar">
+                <h3 class="title-sidebar-text pt-2">Course <span class="title-sidebar-span">Jaktim</span></h3>
+                <ul>
+                    <li><a href="../Index.html" class="linked-setting-menu"><i class='bx bx-home' ></i> Home</a></li>
+                    <li><a href="../Future/Profile.html" class="linked-setting-menu"><i class="bi bi-person-fill"></i> Profileku</a></li>
+                    <li><a href="../Future/Kegiatan.html" class="linked-setting-menu"><i class="bx bx-bookmark"></i> Kegiatanku</a></li>
+                    <li id="closeSidebar"><a href="#" class="linked-setting-menu" target="_blank"><i class="bi bi-box-arrow-in-right"></i> Login</a></li>
+                </ul>
+            </div>
+
+            <div id="overlay"></div>
+            <!-- Menu Setting -->
+
+            <section id="kegiatanku">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card-luar-kegiatan">
+                                <h3 class="title-kegiatan text-center">Kegiatanku</h3>
+                                <hr>
+                                <div class="card-dalam-kegiatan">
+                                    <div class="row">
+                                        <div class="col-md-2 col-2">
+                                            <img src="../Assets/img/Icons/artificial-intelligence.png" class="img-card-kegiatan" alt="img-kegiatan">
+                                        </div>
+                                        <div class="col-md-10 col-8">
+                                            <h3 class="judul-kegiatan">Artificial Intelligence <span class="badge bg-success" style="float: right;">Lolos</span></h3>
+                                            <h5 class="countdown">Program akan <span class="badge bg-danger">Hilang</span> dalam <span class="badge bg-danger">3 hari</span>, jika tidak diambil</h5>
+                                            <button type="button" class="button-kegiatan">Terima Kegiatan</button>
+                                        </div>
+                                    </div> <!-- Batas Row -->
+                                    <hr>
+                                </div> <!-- Batas Card -->
+                                <div class="card-dalam-kegiatan">
+                                    <div class="row">
+                                        <div class="col-md-2 col-2">
+                                            <img src="../Assets/img/Icons/development.png" class="img-card-kegiatan" alt="img-kegiatan">
+                                        </div>
+                                        <div class="col-md-10 col-8">
+                                            <h3 class="judul-kegiatan">Mobile Developer <span class="badge bg-warning" style="float: right;">Process</span></h3>
+                                            <h5 class="countdown">Kamu dapat memilih program lain, sambil menunggu hasil keluar.</h5>
+                                            <!-- <button type="button" class="button-kegiatan">Terima Kegiatan</button> -->
+                                        </div>
+                                    </div> <!-- Batas Row -->
+                                    <hr>
+                                </div> <!-- Batas Card -->
+                                <div class="card-dalam-kegiatan">
+                                    <div class="row">
+                                        <div class="col-md-2 col-2">
+                                            <img src="../Assets/img/Icons/hack.png" class="img-card-kegiatan" alt="img-kegiatan">
+                                        </div>
+                                        <div class="col-md-10 col-8">
+                                            <h3 class="judul-kegiatan">Cyber Scurity <span class="badge bg-warning" style="float: right;">Process</span></h3>
+                                            <h5 class="countdown">Kamu dapat memilih program lain, sambil menunggu hasil keluar.</h5>
+                                            <!-- <button type="button" class="button-kegiatan">Terima Kegiatan</button> -->
+                                        </div>
+                                    </div> <!-- Batas Row -->
+                                    <hr>
+                                </div> <!-- Batas Card -->
+                                <div class="card-dalam-kegiatan">
+                                    <div class="row">
+                                        <div class="col-md-2 col-2">
+                                            <img src="../Assets/img/Icons/internet-of-things.png" class="img-card-kegiatan" alt="img-kegiatan">
+                                        </div>
+                                        <div class="col-md-10 col-8">
+                                            <h3 class="judul-kegiatan">Internet of Things <span class="badge bg-danger" style="float: right;">Ditolak</span></h3>
+                                            <h5 class="countdown">Tidak memenuhi persyaratan / Berkas tidak lengkap</h5>
+                                            <!-- <button type="button" class="button-kegiatan">Terima Kegiatan</button> -->
+                                        </div>
+                                    </div> <!-- Batas Row -->
+                                    <hr>
+                                </div> <!-- Batas Card -->
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-luar-kegiatan">
+                                <h3 class="title-kegiatan text-center">Kegiatan Selesai</h3>
+                                <hr>
+                                <div class="card-dalam-kegiatan">
+                                    <div class="row">
+                                        <div class="col-md-2 col-1">
+                                            <img src="../Assets/img/Icons/analytics.png" class="img-card-kegiatan" alt="img-kegiatan">
+                                        </div>
+                                        <div class="col-md-10 col-8">
+                                            <h3 class="judul-kegiatan">Data Science dan Analytics <span class="badge bg-secondary" style="float: right;">Selesai</span></h3>
+                                            <h5 class="countdown pb-3">Selamat, Kamu telah menyelesaikan Program ini. Cek Program lainnya yuk!</h5>
+                                            <h5 class="countdown" style="float:right">Diselesaikan pada 12/11/2023</h5>
+                                            <!-- <button type="button" class="button-kegiatan">Terima Kegiatan</button> -->
+                                        </div>
+                                    </div> <!-- Batas Row -->
+                                    <hr>
+                                </div> <!-- Batas Card -->
+                                <div class="card-dalam-kegiatan">
+                                    <div class="row">
+                                        <div class="col-md-2 col-2">
+                                            <img src="../Assets/img/Icons/excel.png" class="img-card-kegiatan" alt="img-kegiatan">
+                                        </div>
+                                        <div class="col-md-10 col-8">
+                                            <h3 class="judul-kegiatan">Microsoft Excel <span class="badge bg-secondary" style="float: right;">Selesai</span></h3>
+                                            <h5 class="countdown pb-3">Selamat, Kamu telah menyelesaikan Program ini. Cek Program lainnya yuk!</h5>
+                                            <h5 class="countdown" style="float:right">Diselesaikan pada 28/8/2023</h5>
+                                            <!-- <button type="button" class="button-kegiatan">Terima Kegiatan</button> -->
+                                        </div>
+                                    </div> <!-- Batas Row -->
+                                    <hr>
+                                </div> <!-- Batas Card -->
+                                <div class="card-dalam-kegiatan">
+                                    <div class="row">
+                                        <div class="col-md-2 col-2">
+                                            <img src="../Assets/img/Icons/accounting.png" class="img-card-kegiatan" alt="img-kegiatan">
+                                        </div>
+                                        <div class="col-md-10 col-8">
+                                            <h3 class="judul-kegiatan">Accounting, Finance and Tax <span class="badge bg-secondary" style="float: right;">Selesai</span></h3>
+                                            <h5 class="countdown pb-3">Selamat, Kamu telah menyelesaikan Program ini. Cek Program lainnya yuk!</h5>
+                                            <h5 class="countdown" style="float:right">Diselesaikan pada 04/05/2023</h5>
+                                            <!-- <button type="button" class="button-kegiatan">Terima Kegiatan</button> -->
+                                        </div>
+                                    </div> <!-- Batas Row -->
+                                    <hr>
+                                </div> <!-- Batas Card -->
+                            </div>
+                        </div>
+                    </div> <!-- Batas Row -->
+                </div>
+            </section>
+
+            <style>
+                body{
+                    background-color: #DDE6ED;
+                }
+                #sidebar{
+                    padding-top: 20px;
+                }
+                .title-sidebar-text{
+                    margin-top: 0;
+                }
+            </style>
         <!-- Bootstrap JS -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
         <!-- Custom JS -->
-        <script src="assets/js/main.js"></script>
+        <script src="../Assets/js/main.js"></script>
         <!-- Library JS -->
         <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 </body>

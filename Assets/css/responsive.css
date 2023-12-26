@@ -83,6 +83,37 @@
     .gear-btn{
         font-size: 25px;
     }
+    .img-card-blog{
+        height: 220px;
+    }
+    .title-card-blog{
+        font-size: 14px;
+    }
+    .card-desk{
+        font-size: 11px;
+    }
+    .img-db-blog{
+        width: 320px;
+    }
+    .card-blog{
+        height: 370px;
+    }
+    .card-luar-kegiatan{
+        gap: 1em;
+        margin-top: 20px;
+    }
+    .img-card-kegiatan{
+        height: 60px;
+    }
+    .judul-kegiatan{
+        font-size: 12px;
+    }
+    .countdown{
+        font-size: 9px;
+    }
+    .button-kegiatan{
+        font-size: 10px;
+    }
 }
 /* Ukuran Layar HP 5,5 Inc */
 @media screen and (max-width: 320px) {
@@ -106,5 +137,14 @@
     }
     .card-text{
         font-size: 9px;
+    }
+    .img-card-blog{
+        height: 200px;
+    }
+    .title-card-blog{
+        font-size: 14px;
+    }
+    .card-desk{
+        font-size: 11px;
     }
 }

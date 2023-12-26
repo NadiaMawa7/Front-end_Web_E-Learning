@@ -9,8 +9,8 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link rel="stylesheet" href="../Assets/css/main.css" />
+    <link rel="stylesheet" href="../Assets/css/responsive.css" />
     <!-- Icons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
@@ -25,11 +25,120 @@
     <!-- Library -->
 </head>
 <body>
+        <!-- Menu Setting -->
+        <div id="gear-btn-container">
+            <button id="toggleSidebar" class="gear-btn">
+                <i class="bx bx-cog"></i>
+            </button>
+        </div>
 
+        <div id="sidebar">
+            <h3 class="title-sidebar-text mt-0">Course <span class="title-sidebar-span">Jaktim</span></h3>
+            <ul>
+                <li><a href="../Index.html" class="linked-setting-menu"><i class='bx bx-home' ></i> Home</a></li>
+                <li><a href="../Future/Profile.html" class="linked-setting-menu"><i class="bi bi-person-fill"></i> Profileku</a></li>
+                <li><a href="../Future/Kegiatan.html" class="linked-setting-menu"><i class="bx bx-bookmark"></i> Kegiatanku</a></li>
+                <li id="closeSidebar"><a href="#" class="linked-setting-menu"><i class="bi bi-box-arrow-in-right"></i> Login</a></li>
+            </ul>
+        </div>
+
+        <div id="overlay"></div>
+        <!-- Menu Setting -->
+
+        <section id="our-blog">
+            <div class="container">
+                <div class="row">
+                    <h2 class="blog-title text-center">Portal Course <span class="title-blog-span">Jaktim</span></h2>
+                    <h4 class="title-blog text-center">Our Blog</h4>
+                    <div class="col-md-4 pt-3">
+                        <a href="" class="linked-our-blog">
+                            <div class="card-blog text-center">
+                                <div class="img-blog">
+                                    <img src="../Assets/img/gallery/gallery-1.jpg" class="img-card-blog" alt="img-card">
+                                </div>
+                                <h3 class="title-card-blog pt-2">Manajemen Bisnis and IT</h3>
+                                <p class="card-desk">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore hic sed ab nesciunt eos eaque laudantium, quos fugiat nulla, dolorem quo voluptatem. Voluptatum corrupti ipsa laborum fugiat vero architecto recusandae.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- Batas Col-Md -->
+                    <div class="col-md-4 pt-3">
+                        <a href="" class="linked-our-blog">
+                            <div class="card-blog text-center">
+                                <div class="img-blog">
+                                    <img src="../Assets/img/gallery/Programming.jpg" class="img-card-blog" alt="img-card">
+                                </div>
+                                <h3 class="title-card-blog pt-2">Framework Popular 2023</h3>
+                                <p class="card-desk">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore hic sed ab nesciunt eos eaque laudantium, quos fugiat nulla, dolorem quo voluptatem. Voluptatum corrupti ipsa laborum fugiat vero architecto recusandae.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- Batas Col-Md -->
+                    <div class="col-md-4 pt-3">
+                        <a href="" class="linked-our-blog">
+                            <div class="card-blog text-center">
+                                <div class="img-blog">
+                                    <img src="../Assets/img/gallery/SEO.jpg" class="img-card-blog" alt="img-card">
+                                </div>
+                                <h3 class="title-card-blog pt-2">Menintip Pekerjaan Seorang SEO Spesialis</h3>
+                                <p class="card-desk">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore hic sed ab nesciunt eos eaque laudantium, quos fugiat nulla, dolorem quo voluptatem. Voluptatum corrupti ipsa laborum fugiat vero architecto recusandae.</p>
+                            </div>
+                        </a>
+                    </div> <!-- Batas Col-Md -->
+                </div> <!-- Batas Row -->
+                <div class="row pb-3">
+                    <div class="col-md-4 pt-3">
+                        <a href="" class="linked-our-blog">
+                            <div class="card-blog text-center">
+                                <div class="img-blog">
+                                    <img src="../Assets/img/gallery/BD.jpg" class="img-card-blog img-db-blog" alt="img-card">
+                                </div>
+                                <h3 class="title-card-blog pt-2">Penggunaan Type data yang paling efektif</h3>
+                                <p class="card-desk">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore hic sed ab nesciunt eos eaque laudantium, quos fugiat nulla, dolorem quo voluptatem. Voluptatum corrupti ipsa laborum fugiat vero architecto recusandae.</p>
+                            </div>
+                        </a>
+                    </div> <!-- Batas Col-Md -->
+                    <div class="col-md-4 pt-3">
+                        <a href="" class="linked-our-blog">
+                            <div class="card-blog text-center">
+                                <div class="img-blog">
+                                    <img src="../Assets/img/gallery/Cloud.jpg" class="img-card-blog img-db-blog" alt="img-card">
+                                </div>
+                                <h3 class="title-card-blog pt-2">Arsitektur Cloud Popular Tahun ini</h3>
+                                <p class="card-desk">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore hic sed ab nesciunt eos eaque laudantium, quos fugiat nulla, dolorem quo voluptatem. Voluptatum corrupti ipsa laborum fugiat vero architecto recusandae.</p>
+                            </div>
+                        </a>
+                    </div> <!-- Batas Col-Md -->
+                    <div class="col-md-4 pt-3">
+                        <a href="" class="linked-our-blog">
+                            <div class="card-blog text-center">
+                                <div class="img-blog">
+                                    <img src="../Assets/img/gallery/Design.jpg" class="img-card-blog img-db-blog" alt="img-card">
+                                </div>
+                                <h3 class="title-card-blog pt-2">Tools Design Popular selain Figma</h3>
+                                <p class="card-desk">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore hic sed ab nesciunt eos eaque laudantium, quos fugiat nulla, dolorem quo voluptatem. Voluptatum corrupti ipsa laborum fugiat vero architecto recusandae.</p>
+                            </div>
+                        </a>
+                    </div> <!-- Batas Col-Md -->
+                </div> <!-- Batas Row -->
+            </div>
+        </section>
+
+        <style>
+            body{
+                background-color: #DDE6ED;
+            }
+            #sidebar{
+                padding-top: 20px;
+            }
+            .title-sidebar-text{
+                margin-top: 0;
+            }
+        </style>
         <!-- Bootstrap JS -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
         <!-- Custom JS -->
-        <script src="assets/js/main.js"></script>
+        <script src="../Assets/js/main.js"></script>
         <!-- Library JS -->
         <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 </body>

@@ -305,6 +305,17 @@ Pengaturan Setting untuk Scrolling
         background-color: rgba(0, 0, 0, 0.7);
         z-index: 998;
 }
+.title-sidebar-text{
+        font-size: 24px;
+        padding: 10px;
+        color: var(--light);
+        margin-top: 15px;
+        text-align: center;
+        font-family: var(--ff-inter);
+}
+.title-sidebar-span{
+        color: var(--nvbr-2);
+}
 /* ===============================
     Pengaturan Setting LiveChat
 ================================== */
@@ -364,6 +375,145 @@ Pengaturan Setting untuk Scrolling
 }
 #liveChatForm button:hover {
         background-color: #45a049;
+}
+/* ===============================
+    Pengaturan Setting Blog
+================================== */
+.blog-title{
+        font-size: 28px;
+        font-family: var(--ff-inter);
+        font-weight: 600;
+}
+.title-blog{
+        font-size: 22px;
+        font-family: var(--ff-inter);
+        font-weight: 400;
+}
+.title-blog-span{
+        color: var(--nvbr-2);
+}
+.card-blog{
+        background-color: var(--light);
+        opacity: 85%;
+        height: 430px;
+        padding: 10px;
+        border-radius: 20px;
+        box-shadow: 5px 5px whitesmoke;
+}
+.img-card-blog{
+        height: auto;
+        max-height: 270px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+}
+.img-db-blog{
+        width: 380px;
+}
+.linked-our-blog:hover{
+        opacity: 50%;
+}
+.title-card-blog{
+        font-size: 18px;
+        font-weight: 400;
+        font-family: var(--ff-inter);
+}
+.card-desk{
+        font-size: 14px;
+        font-weight: 300;
+        font-family: var(--ff-inter);
+}
+/* ===============================
+    Pengaturan Setting Profile
+================================== */
+#account{
+        margin: 0;
+        background: linear-gradient(to top right, #000066 0%, #000000 90%);
+}
+.card-profile{
+        box-sizing: border-box;
+        background-color: var(--light);
+        opacity: 75%;
+        padding: 20px;
+        border-radius: 20px;
+        height: auto;
+}
+.profile-title-name{
+        font-family: var(--ff-inter);
+        font-size: 20px;
+        font-weight: 600;
+}
+.profile-title-school,
+.profile-title-prodi{
+        font-family: var(--ff-inter);
+        font-size: 14px;
+        font-weight: 400;
+}
+.profile-title-2{
+        font-family: var(--ff-inter);
+        font-size: 16px;
+        font-weight: 400;
+}.profile-desk{
+        font-family: var(--ff-inter);
+        font-size: 14px;
+        font-weight: 300;
+}
+/* ===============================
+    Pengaturan Setting Kegiatan
+================================== */
+.card-luar-kegiatan{
+        box-sizing: border-box;
+        background-color: var(--light);
+        border-radius: 20px;
+        padding: 10px;
+        height: auto;
+        box-shadow: 3px 8px lightgray;
+}
+.title-kegiatan{
+        font-size: 24px;
+        font-family: var(--ff-inter);
+        font-weight: 500;
+}
+.card-dalam-kegiatan{
+        box-sizing: border-box;
+        background-color: var(--secondary-light);
+        border-radius: 10px;
+        padding: 10px;
+        margin-top: 5px;
+}
+.img-card-kegiatan{
+        height: 90px;
+        border: 2px solid whitesmoke;
+        background-color: whitesmoke;
+        border-radius: 5px;
+        padding: 10px;
+}
+.judul-kegiatan{
+        font-size: 20px;
+        font-family: var(--ff-inter);
+        font-weight: 500;
+        color: var(--dark);
+}
+.countdown{
+        font-size: 12px;
+        font-family: var(--ff-inter);
+        font-weight: 400;
+        color: grey;
+}
+.button-kegiatan{
+        background-color: blue;
+        border: none;
+        border-radius: 5px;
+        color: var(--light);
+        font-size: 14px;
+        font-family: var(--ff-inter);
+        float: right;
+        padding: 5px;
+}
+.button-kegiatan:hover{
+        background-color: var(--nvbr-2);
 }
 /* ===============================
     Pengaturan Setting Footer

@@ -44,8 +44,8 @@ document.addEventListener('click', function (event) {
 
 document.getElementById('liveChatForm').addEventListener('submit', function (event) {
     event.preventDefault();
-    // Handle form submission (e.g., send data to server)
-    // You can add your logic here
+    // bagian untuk mengirim form submission ke server
+    // menambahkan logika lain disini
 });
 
 
